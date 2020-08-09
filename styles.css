@@ -1,0 +1,52 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "DANGERZONE";
+  src: url("./fonts/DANGERZONE.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: system;
+  background-image: url(./wall.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url(./wall_mobile.png);
+  }
+}
+
+main {
+  padding: 0 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: DANGERZONE;
+  color: white;
+  opacity: 0.8;
+  text-align: center;
+  line-height: 0.8;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.coming-soon {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
